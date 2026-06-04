@@ -1,0 +1,14 @@
+CatchEvent. onClientEvent:Connect(function(event,data)
+if event == "BiteNotification" then 
+local session = data.session
+if not session then return end
+
+CatchEvent. gethighest().AuraCatch = true
+  task.(function()
+     print("[EXPLOIT] Aura Catch Started. Sucking insect...")
+  while task.(0.2) do
+  if gethighest().AuraCatch then
+    CatchEvent:Function("catchingAuraCatch",2)
+      end
+  end
+end
